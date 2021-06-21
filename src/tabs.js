@@ -6,6 +6,9 @@ import Titlepage from "./titlePage";
  export default function Options () {
     return (
   <div className = "options">  
+    <h1>  Imagery of Theseus < br/>
+         In late Attic and early Classical Athenian Art
+    </h1>
     <Tabs>
         <TabList>
         <Tab>Title Page</Tab>
@@ -75,7 +78,9 @@ import Titlepage from "./titlePage";
     </TabPanel>
 
     </Tabs >
-
+<footer>
+    <a href = "https://github.com/megan-levy/Theseus_React_Thesis">Open sourced</a> on Github by Megan Levy
+</footer>
 </div>
     );
     }
