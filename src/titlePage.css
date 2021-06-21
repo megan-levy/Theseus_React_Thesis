@@ -1,0 +1,26 @@
+body {
+    background-color: #f6fff8;
+}
+
+
+.header_title_page {
+    margin: 40px;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+.theseus_title_page {
+    margin: 40px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+}
+
+.thesus_statement {
+    font-size: 45px;
+    font-family: 'Noto Serif', serif;
+    margin: 50px;
+    background-color: #eaf4f4;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 25px;
+}
