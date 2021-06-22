@@ -1,12 +1,17 @@
-body {
-    background-color: #f6fff8;
-}
 
+
+.introduction {
+    text-align:center;
+    margin: 35px;
+    text-decoration: none;
+    color: black;
+}
 
 .header_title_page {
     margin: 40px;
     text-align: center;
     font-family: 'Noto Serif', serif;
+  
 }
 .theseus_title_page {
     margin: 40px;

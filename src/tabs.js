@@ -2,6 +2,7 @@ import React from "react"
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Titlepage from "./titlePage";
+import WorksCited from "./worksCited";
 
  export default function Options () {
     return (
@@ -11,13 +12,13 @@ import Titlepage from "./titlePage";
     </h1>
     <Tabs>
         <TabList>
-        <Tab>Title Page</Tab>
-        <Tab>Who Was Theseus?</Tab>
-        <Tab>Theseus' Political Reforms and Beyond</Tab>
-        <Tab>Athenian Pottery</Tab>
-        <Tab>Athenian Building Projects</Tab>
-        <Tab>Why Does It Matter?</Tab>
-        <Tab>Works Cited</Tab>
+        <Tab>I. Title Page</Tab>
+        <Tab>II. Who Was Theseus?</Tab>
+        <Tab>III. Theseus' Political Reforms and Beyond</Tab>
+        <Tab>IV. Athenian Pottery</Tab>
+        <Tab>V. Athenian Building Projects</Tab>
+        <Tab>VI. Why Does It Matter?</Tab>
+        <Tab>VII. Works Cited</Tab>
         </TabList>
 
         <TabPanel>
@@ -69,17 +70,14 @@ import Titlepage from "./titlePage";
 
 
     <TabPanel>
-            <p>
-            Works Cited
-            </p>
-            <p>
-            test
-            </p>
+            <div>
+                <WorksCited />
+            </div>
     </TabPanel>
 
     </Tabs >
 <footer>
-    <a href = "https://github.com/megan-levy/Theseus_React_Thesis">Open sourced</a> on Github by Megan Levy
+    <a href = "https://github.com/megan-levy/Theseus_React_Thesis">Open sourced</a> on Github by Megan Levy. Hosted on Netlify
 </footer>
 </div>
     );

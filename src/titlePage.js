@@ -4,8 +4,15 @@ import "./titlePage.css"
 export default function TitlePage() {
     return (
         <div className = "containter_title_page">
-
-        <h2> Hi there! Welcome to my site! </h2>
+        <div className = "introduction">
+        <p> 
+            Hi there! Welcome to my site! In 2020 I recieved my Bachelors Degree in <a href = "https://classics.uc.edu/"> Classical Civilizations </a>  
+             from the University of Cincinnati. Since then, I have begun to pursue a career in software. It felt only perfect to combine my two fields
+            of interest. The research and writing for this site is all pulled from my graduating project from UC.  <br />
+            This website is constructed to be navigated as if reading my paper start to finish. For the most clear understanding of the project, please follow 
+            numerated tabs. Enjoy!
+         </p>
+         </div>
           <div className = "row">
               <div className = "col - 6">
                    <div className = "theseus_title_page">
