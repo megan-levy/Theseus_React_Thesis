@@ -1,5 +1,5 @@
 import React from "react";
-import whowasTheseus from "./whowasTheseus.css";
+import  "./whowasTheseus.css";
 
 export default function History() {
     return (
