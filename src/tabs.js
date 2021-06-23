@@ -4,6 +4,7 @@ import 'react-tabs/style/react-tabs.css';
 import Titlepage from "./titlePage";
 import WorksCited from "./worksCited";
 import History from "./whowasTheseus";
+import Political from "./politicalReforms";
 
  export default function Options () {
     return (
@@ -33,12 +34,9 @@ import History from "./whowasTheseus";
             </div>
         </TabPanel>
     <TabPanel>
-            <p>
-                Theseus' Political Reforms and Beyond
-            </p>
-            <p>
-                test
-            </p>
+            <div>
+                <Political />
+            </div>
     </TabPanel>
     
     <TabPanel>

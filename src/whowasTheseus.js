@@ -3,7 +3,7 @@ import  "./whowasTheseus.css";
 
 export default function History() {
     return (
-        <div className = "historyCOntainer">
+        <div className = "historyContainer">
         
         <h1>
             Who Was Theseus?
@@ -78,12 +78,10 @@ export default function History() {
                After his ascension to the throne, Theseus continued his streak of great deeds doing such things as battling the Amazons and
                 the Centaurs.  Ultimately however, he died much like his father- being thrown from a cliff into the sea.
             </p>
+            <p>
+            For a more in depth explanation of the famous myth of Theses and the Minotaur, check out <a href = "https://www.greekmyths-greekmythology.com/myth-of-theseus-and-minotaur/" > this site</a>
+            </p>
         </div>
-
-        <div className = "history">
-            test
-        </div>
-        
         </div>
     )
 }
