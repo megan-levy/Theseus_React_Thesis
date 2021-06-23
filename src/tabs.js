@@ -3,6 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Titlepage from "./titlePage";
 import WorksCited from "./worksCited";
+import History from "./whowasTheseus";
 
  export default function Options () {
     return (
@@ -26,12 +27,11 @@ import WorksCited from "./worksCited";
                 <Titlepage /> 
             </div>
         </TabPanel>
-    <TabPanel>
-            <p>
-                Who Was Theseus
-            </p>
-
-    </TabPanel>
+        <TabPanel>
+            <div>
+                <History />
+            </div>
+        </TabPanel>
     <TabPanel>
             <p>
                 Theseus' Political Reforms and Beyond
@@ -77,7 +77,7 @@ import WorksCited from "./worksCited";
 
     </Tabs >
 <footer>
-    <a href = "https://github.com/megan-levy/Theseus_React_Thesis">Open sourced</a> on Github by Megan Levy. Hosted on Netlify
+    Open sourced <a href = "https://github.com/megan-levy/Theseus_React_Thesis" >on Github </a>  by Megan Levy
 </footer>
 </div>
     );
