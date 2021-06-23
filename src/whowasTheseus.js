@@ -13,7 +13,7 @@ export default function History() {
             <h2>
                 Theseus: The Early Years
             </h2>
-            <p>
+            <p className = "early_years">
             Theseus was born to Aethra, the daughter of Pitheus, and Aegeus, the king of Athens. 
             Although in alternate versions of the story Theseus is written as the son of the sea god Poseidon.
              When he came of age, Theseus traveled to Athens to see his father.
@@ -68,7 +68,16 @@ export default function History() {
         </div>
         
         <div className = "history">
-            test
+            <h2>
+                The Minotuar
+            </h2>
+            <p className = "minotaur">
+            Before rising to the throne, Theseus sailed to Crete alongside thirteen other youths where he fought the Minotaur
+             and, because of his forgetfulness, he neglected to change his sails to indicate his survival. Seeing the black sails 
+             instead of white, Aegeus threw himself from atop the acropolis into what is now the Aegean Sea and his son became ruler.
+               After his ascension to the throne, Theseus continued his streak of great deeds doing such things as battling the Amazons and
+                the Centaurs.  Ultimately however, he died much like his father- being thrown from a cliff into the sea.
+            </p>
         </div>
 
         <div className = "history">
