@@ -1,0 +1,19 @@
+.pottery {
+    font-size: 20px;
+    line-height: 45px;
+    font-family: 'Noto Serif', serif;
+    margin: 50px;
+    background-color: #eaf4f4;
+    padding: 34px;
+    border-radius: 15px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 25px;
+}
+
+.kylix {
+    background-color: #cce3de;
+    border-radius: 15px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 28px;
+    padding: 15px
+}

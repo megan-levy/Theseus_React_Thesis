@@ -1,4 +1,4 @@
-import react from "react";
+//import react from "react";
 import "./politicalReforms.css";
 
 export default function Political () {
@@ -40,7 +40,7 @@ export default function Political () {
                    <h2>
                    “Democracy, deriving from the Greek word δημοκρατία gave Rule (kratos, κράτος) to the Demos (Δῆμος) (people).” 
                    </h2>
-                   <p> <i>  Blackwell, Christopher W. “Athenian Democracy.” Athenian Democracy: a brief overview, February 2003. </i></p>
+                   <p> <i> -  Blackwell, Christopher W. “Athenian Democracy.” Athenian Democracy: a brief overview, February 2003. </i></p>
                       
                    
                    <div className = "col-6">
@@ -87,7 +87,7 @@ export default function Political () {
                         <p>
                         Pericles was repeatedly elected to the office of Strategos- the Greek word meaning Army Leader - during the period from 454 to 429 BCE. 
                          Pericles also implemented major reforms, one of which was his ‘Periclean Building Programs’ under which he transformed the Athenian 
-                         Acropolis.  He transformed the Delian League into what became the Athenian empire. 
+                         Acropolis.  He transformed the Delian League into what became the Athenian empire. <br />
                         Pericles was referred to one by Thucydides, a historian of the time, as “the first citizen of Athens”. 
                         </p>
                     </div>

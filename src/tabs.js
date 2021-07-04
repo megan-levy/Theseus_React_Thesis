@@ -5,6 +5,7 @@ import Titlepage from "./titlePage";
 import WorksCited from "./worksCited";
 import History from "./whowasTheseus";
 import Political from "./politicalReforms";
+import Pottery from "./athenianPottery";
 
  export default function Options () {
     return (
@@ -41,7 +42,7 @@ import Political from "./politicalReforms";
     
     <TabPanel>
             <p>
-                Athenian Pottery
+                <Pottery />
             </p>
             <p>
                 test
