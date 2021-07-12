@@ -41,12 +41,9 @@ import Pottery from "./athenianPottery";
     </TabPanel>
     
     <TabPanel>
-            <p>
+            <div>
                 <Pottery />
-            </p>
-            <p>
-                test
-            </p>
+            </div>
     </TabPanel>
     
     <TabPanel>
